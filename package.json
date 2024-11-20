@@ -74,8 +74,6 @@
     "polygon:mainnet": "cross-env-shell EVM_CALL_INTERLEAVE_BLOCKS=0 ETHERS_FORCE_EIP_155=true ETHERS_ESTIMATE_GAS_PRICE=true ETHERS_ESTIMATE_GAS_LIMIT=true ETHERS_GAS_PRICE=500000000000 ETHERS_GAS_PRICE_FACTOR=1.1 ETHERS_GAS_LIMIT=25000000 node dist/bin/ethers https://1rpc.io/matic 9535",
     "polygon:zkevm:testnet": "cross-env-shell ETHERS_ESTIMATE_GAS_PRICE=true ETHERS_ESTIMATE_GAS_LIMIT=true ETHERS_GAS_LIMIT=15000000 ETHERS_GAS_LIMIT_FACTOR=1.1 ETHERS_GAS_PRICE=100000000000 ETHERS_GAS_PRICE_FACTOR=1.1 node dist/bin/ethers https://rpc.public.zkevm-test.net 8512",
     "polygon:zkevm:mainnet": "cross-env-shell ETHERS_ESTIMATE_GAS_PRICE=true ETHERS_ESTIMATE_GAS_LIMIT=true ETHERS_GAS_LIMIT=15000000 ETHERS_GAS_LIMIT_FACTOR=1.1 ETHERS_GAS_PRICE=100000000000 ETHERS_GAS_PRICE_FACTOR=1.1 node dist/bin/ethers https://zkevm-rpc.com 9512",
-    "reef:testnet": "cross-env-shell node dist/bin/reef wss://rpc-testnet.reefscan.com/ws https://squid.subsquid.io/reef-explorer-testnet/graphql 8532",
-    "reef:mainnet": "cross-env-shell node dist/bin/reef wss://rpc.reefscan.com/ws https://squid.subsquid.io/reef-explorer/graphql 9532",
     "scroll:sepolia": "cross-env-shell EVM_CALL_INTERLEAVE_BLOCKS=0 ETHERS_FORCE_EIP_155=true ETHERS_ESTIMATE_GAS_PRICE=true ETHERS_ESTIMATE_GAS_LIMIT=true ETHERS_GAS_LIMIT=8000000 ETHERS_GAS_PRICE=555000000000 ETHERS_GAS_PRICE_FACTOR=1.0 node dist/bin/ethers https://scroll-sepolia.chainstacklabs.com 8514",
     "scroll:mainnet": "cross-env-shell EVM_CALL_INTERLEAVE_BLOCKS=0 ETHERS_FORCE_EIP_155=true ETHERS_ESTIMATE_GAS_PRICE=true ETHERS_ESTIMATE_GAS_LIMIT=true ETHERS_GAS_LIMIT=8000000 ETHERS_GAS_PRICE=555000000000 ETHERS_GAS_PRICE_FACTOR=1.1 node dist/bin/ethers https://1rpc.io/scroll 9514",
     "syscoin:rollux:testnet": "cross-env-shell EVM_CALL_INTERLEAVE_BLOCKS=0 ETHERS_ESTIMATE_GAS_PRICE=true ETHERS_ESTIMATE_GAS_LIMIT=true ETHERS_GAS_LIMIT=8000000 node dist/bin/ethers https://rpc-tanenbaum.rollux.com 8507",
@@ -107,7 +105,6 @@
   "homepage": "https://github.com/witnet/web3-jsonrpc-gateway#readme",
   "devDependencies": {
     "@ksmithut/prettier-standard": "^0.2.0",
-    "@reef-defi/evm-provider": "~1.0.10",
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
     "@types/node": "^20.12.7",
