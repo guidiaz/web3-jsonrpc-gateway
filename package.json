@@ -106,12 +106,12 @@
   "devDependencies": {
     "@ksmithut/prettier-standard": "^0.2.0",
     "@types/cors": "^2.8.10",
-    "@types/express": "^4.17.11",
-    "@types/node": "^20.12.7",
-    "body-parser": "1.20.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "body-parser": "2.0.2",
     "js-conflux-sdk": "^2.3.0",
     "typescript": "^5.4.5",
-    "yarn": "^1.22.22"
+    "yarn": "^2.4.3"
   },
   "dependencies": {
     "axios": "^1.6.8",
