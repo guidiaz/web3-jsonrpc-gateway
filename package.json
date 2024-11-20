@@ -113,6 +113,7 @@
     "@types/node": "^20.12.7",
     "body-parser": "1.20.2",
     "js-conflux-sdk": "^2.3.0",
+    "node-gyp": "^10.2.0",
     "typescript": "^5.4.5",
     "yarn": "^1.22.22"
   },
